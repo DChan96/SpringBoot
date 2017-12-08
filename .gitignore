@@ -28,4 +28,9 @@ CSTOptionsWebApp/upload-dir/*
 CSTOptionsWebApp/students.csv
 *.csv
 *.DS_Store
+<<<<<<< HEAD
 CSTOptionsWebApp/src/main/resources/static/node_modules
+=======
+
+/bin/
+>>>>>>> 11e9debfa4d5ce59b48c55cc796703b681794380

@@ -48,66 +48,16 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .fontSize {
     font-size: 20px;
 }
 #mainbody {
-	    margin: 0;
-	    padding: 0;
-	    background-color: #262626;
-}
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-th, td {
-    text-align: left;
-    padding: 8px;
-}
-
-tr:nth-child(even){background-color: #ffffff}
-
-th {
+    margin: 0;
+    padding: 0;
     background-color: #262626;
-    color: white;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-/* Create two equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-#stuContainer {
-    border: 1px solid grey;
-    width: 55vw;
-    height: 50vh;
-    overflow: auto;
-    margin: auto;
-            }
-#container2 {
-    margin-top: 125px;
-}
-#starter-template {
-    margin-top: 30px;
-    margin-left: 15px;
 }
 .btn{
     color: #fff;
@@ -121,4 +71,5 @@ th {
 }
 form {
     padding: 1em;
+    margin: 0;
 }
